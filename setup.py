@@ -8,6 +8,7 @@ setup(
     version='0.1a0',
     packages=['anyio_marketstore'],
     package_dir={'':'src'},
+    packages=find_packages(where="src"),
     install_requires=[
         'numpy',
         'pandas',
