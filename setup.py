@@ -11,7 +11,7 @@ setup(
     packages=find_packages(where="src"),
     install_requires=[
         'numpy',
-        'pandas',
+        'pendulum',
         'purerpc'
     ]
 )
